@@ -1,522 +1,57 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>太平ジャパン合同会社 | TAIHEI JAPAN LLC</title>
-<meta name="description" content="太平ジャパン合同会社（TAIHEI JAPAN LLC）は、群馬県高崎市を拠点に、越境EC・輸出入、卸売、ITコンサルティング、AI導入支援、経営コンサルティングを手がける会社です。">
-<link rel="icon" type="image/png" href="assets/favicon.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-<meta property="og:type" content="website">
-<meta property="og:title" content="太平ジャパン合同会社 | TAIHEI JAPAN LLC">
-<meta property="og:description" content="日本の確かな価値を、世界へ。群馬県高崎市から、商いとテクノロジーで新しい価値を届けます。">
-<meta property="og:url" content="https://taiheijp.com/">
-<meta property="og:image" content="https://taiheijp.com/assets/ogp.png">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="description" content="太平ジャパン合同会社は、貿易・EC、IT・AI、経営支援を通じて、日本と世界のビジネスをつなぎます。">
+<link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "太平ジャパン合同会社",
-  "alternateName": "TAIHEI JAPAN LLC",
-  "url": "https://taiheijp.com/",
-  "logo": "https://taiheijp.com/assets/logo.png",
-  "email": "info@taiheijp.com",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "高崎市",
-    "addressRegion": "群馬県",
-    "addressCountry": "JP"
-  }
-}
-</script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700;900&display=swap" rel="stylesheet">
 <style>
-:root{
-  --blue:#2C6E9E;
-  --blue-deep:#1C4E78;
-  --navy:#132B40;
-  --red:#C42430;
-  --ink:#1e2e3d;
-  --gray:#5c6b7a;
-  --line:#dde5ec;
-  --bg:#ffffff;
-  --bg-soft:#f4f7fa;
-  --radius:18px;
-  --shadow:0 10px 40px rgba(19,43,64,.08);
-  --font-en:'Montserrat',sans-serif;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:84px}
-body{
-  font-family:'Noto Sans JP',"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
-  color:var(--ink);line-height:1.9;background:var(--bg);
-  -webkit-font-smoothing:antialiased;overflow-x:hidden;
-}
-img{max-width:100%;display:block}
-a{color:inherit;text-decoration:none}
-.container{max-width:1120px;margin:0 auto;padding:0 24px}
+:root{--blue:#2c6e9e;--deep:#173f62;--navy:#102b42;--red:#c42430;--ink:#1c2d3a;--muted:#65727d;--paper:#faf9f6;--mist:#eef3f6;--line:#d7e0e6;--white:#fff;--sans:'Noto Sans JP',sans-serif;--serif:'Noto Serif JP',serif;--en:'Montserrat',sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:78px}body{font-family:var(--sans);color:var(--ink);line-height:1.9;background:var(--paper);overflow-x:hidden;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}img{display:block;max-width:100%}button{font:inherit}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}
+.header{position:fixed;inset:0 0 auto;z-index:50;background:rgba(250,249,246,.9);border-bottom:1px solid rgba(23,63,98,.1);backdrop-filter:blur(16px)}.header-in{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px}.brand img{width:42px;height:46px;object-fit:contain}.brand-ja{font-family:var(--serif);font-weight:700;letter-spacing:.08em;line-height:1.35}.brand-en{display:block;font:600 .62rem/1.5 var(--en);letter-spacing:.15em;color:var(--blue)}.nav{display:flex;align-items:center;gap:26px}.nav a{font-size:.82rem;letter-spacing:.06em}.nav a:hover{color:var(--blue)}.lang{display:flex;align-items:center;border:1px solid var(--line);border-radius:99px;padding:3px;background:#fff}.lang button{border:0;background:transparent;color:var(--muted);padding:5px 9px;border-radius:99px;cursor:pointer;font:600 .68rem var(--en)}.lang button.active{background:var(--deep);color:#fff}.menu{display:none;border:0;background:none;padding:8px}.menu span{display:block;width:23px;height:1.5px;background:var(--navy);margin:5px}
+.hero{min-height:94vh;padding:150px 0 100px;display:grid;align-items:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#fdfcf9 0%,#edf4f8 100%)}.hero:before{content:"";position:absolute;inset:0;opacity:.16;background-image:linear-gradient(30deg,transparent 47%,var(--blue) 48%,var(--blue) 49%,transparent 50%),linear-gradient(150deg,transparent 47%,var(--blue) 48%,var(--blue) 49%,transparent 50%);background-size:72px 42px;mask-image:linear-gradient(90deg,transparent 35%,#000)}.hero:after{content:"";position:absolute;width:520px;height:520px;border:1px solid rgba(44,110,158,.18);border-radius:50%;right:-120px;top:10%}.hero-grid{position:relative;display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:70px}.eyebrow{display:flex;align-items:center;gap:14px;color:var(--blue);font:600 .73rem var(--en);letter-spacing:.24em;text-transform:uppercase;margin-bottom:26px}.eyebrow:before{content:"";width:34px;height:1px;background:var(--red)}h1{font-family:var(--serif);font-weight:700;color:var(--navy);font-size:clamp(2.35rem,4.8vw,4.35rem);line-height:1.38;letter-spacing:.07em;margin-bottom:28px}h1 em{font-style:normal;color:var(--blue);position:relative}h1 em:after{content:"";position:absolute;left:0;right:0;bottom:-7px;height:2px;background:var(--red);transform:scaleX(.62);transform-origin:left}.lead{max-width:39em;color:var(--muted);font-size:1rem;margin-bottom:40px}.actions{display:flex;gap:14px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-width:170px;padding:14px 26px;border:1px solid var(--deep);font-weight:700;font-size:.88rem;letter-spacing:.05em;transition:.25s}.btn.primary{background:var(--deep);color:white}.btn:hover{background:var(--red);border-color:var(--red);color:white;transform:translateY(-2px)}
+.hero-mark{display:grid;place-items:center;position:relative}.hero-mark img{width:min(370px,90%);filter:drop-shadow(0 24px 36px rgba(16,43,66,.2));animation:float 7s ease-in-out infinite}@keyframes float{50%{transform:translateY(-10px)}}
+.section{padding:112px 0}.section.alt{background:var(--white)}.section.dark{background:var(--navy);color:#fff;position:relative;overflow:hidden}.section.dark:after{content:"";position:absolute;inset:auto -80px -220px auto;width:520px;height:520px;border:1px solid rgba(255,255,255,.1);border-radius:50%}.head{display:grid;grid-template-columns:230px 1fr;gap:50px;margin-bottom:56px}.kicker{color:var(--red);font:700 .72rem var(--en);letter-spacing:.24em;text-transform:uppercase;padding-top:10px}.kicker:after{content:"";display:block;width:42px;height:1px;background:currentColor;margin-top:14px}.title{font-family:var(--serif);font-weight:700;font-size:clamp(1.8rem,3vw,2.7rem);line-height:1.5;letter-spacing:.08em;color:var(--navy)}.dark .title{color:#fff}.intro{grid-column:2;color:var(--muted);max-width:50em}.dark .intro{color:rgba(255,255,255,.72)}
 
-/* ---------- header ---------- */
-.header{
-  position:fixed;top:0;left:0;right:0;z-index:100;
-  background:rgba(255,255,255,.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
-  transition:box-shadow .3s;
-}
-.header.scrolled{box-shadow:0 2px 20px rgba(19,43,64,.1)}
-.header-inner{
-  max-width:1180px;margin:0 auto;padding:0 24px;height:72px;
-  display:flex;align-items:center;justify-content:space-between;gap:16px;
-}
-.brand{display:flex;align-items:center;gap:12px;min-width:0}
-.brand img{width:44px;height:44px;border-radius:50%;object-fit:contain}
-.brand-name{font-weight:900;font-size:1.02rem;letter-spacing:.02em;white-space:nowrap}
-.brand-name small{display:block;font-family:var(--font-en);font-weight:600;font-size:.62rem;color:var(--blue);letter-spacing:.14em}
-.nav{display:flex;align-items:center;gap:28px}
-.nav a{font-size:.9rem;font-weight:500;position:relative;padding:6px 0}
-.nav a:not(.cta)::after{
-  content:"";position:absolute;left:0;bottom:0;width:100%;height:2px;
-  background:var(--blue);transform:scaleX(0);transform-origin:right;transition:transform .3s;
-}
-.nav a:not(.cta):hover::after{transform:scaleX(1);transform-origin:left}
-.cta{
-  background:var(--blue-deep);color:#fff;padding:10px 22px;border-radius:999px;
-  font-weight:700;font-size:.88rem;transition:background .3s,transform .2s;
-}
-.cta:hover{background:var(--red);transform:translateY(-1px)}
-.menu-btn{display:none;background:none;border:0;cursor:pointer;padding:8px}
-.menu-btn span{display:block;width:24px;height:2px;background:var(--navy);margin:5px 0;transition:.3s}
+.principles{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--line);background:var(--line);gap:1px}.principle{background:var(--paper);padding:38px 34px;min-height:245px}.principle b{display:block;font:600 .7rem var(--en);letter-spacing:.2em;color:var(--blue);margin-bottom:22px}.principle h3,.service h3{font-family:var(--serif);font-size:1.2rem;color:var(--navy);letter-spacing:.06em;margin-bottom:13px}.principle p,.service p{color:var(--muted);font-size:.9rem}.seal{display:inline-grid;place-items:center;width:28px;height:28px;background:var(--red);color:#fff;font-family:var(--serif);font-size:.72rem;margin-bottom:18px}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.service{background:#fff;padding:38px 40px;display:grid;grid-template-columns:56px 1fr;gap:22px}.service-no{font:500 1.3rem var(--en);color:var(--blue);border-right:1px solid var(--line)}
+.message-body{position:relative;max-width:760px;margin-left:280px;z-index:1}.message-body p{color:rgba(255,255,255,.8);margin-bottom:1.35em}.sign{margin-top:36px;border-top:1px solid rgba(255,255,255,.2);padding-top:24px;display:flex;align-items:baseline;gap:16px}.sign span{font-size:.78rem;color:rgba(255,255,255,.55)}.sign strong{font-family:var(--serif);font-size:1.4rem;letter-spacing:.12em}
+.company-grid{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--line)}.company-item{display:grid;grid-template-columns:130px 1fr;gap:20px;padding:22px 12px;border-bottom:1px solid var(--line)}.company-item:nth-child(odd){border-right:1px solid var(--line)}.company-item dt{font-weight:700;color:var(--navy);font-size:.85rem}.company-item dd{color:var(--muted);font-size:.9rem}.company-item.wide{grid-column:1/-1;border-right:0}.business-list{display:grid;grid-template-columns:1fr 1fr;gap:7px 28px;list-style:none}.business-list li:before{content:"—";color:var(--red);margin-right:9px}
+.contact{text-align:center;background:linear-gradient(135deg,#f3f7f9,#fff)}.contact .head{display:block;margin-bottom:22px}.contact .kicker:after{margin:14px auto}.contact .title{margin-top:10px}.contact-copy{color:var(--muted);margin:0 auto 32px;max-width:42em}.mail{font:600 1.05rem var(--en);letter-spacing:.03em;display:inline-flex;padding:17px 38px;background:var(--deep);color:#fff}.mail:hover{background:var(--red)}
 
-/* ---------- hero ---------- */
-.hero{
-  position:relative;min-height:92vh;display:flex;align-items:center;
-  background:
-    radial-gradient(1200px 600px at 85% -10%, rgba(44,110,158,.14), transparent 60%),
-    radial-gradient(900px 500px at -10% 110%, rgba(196,36,48,.07), transparent 55%),
-    linear-gradient(180deg,#fbfdfe 0%,#eef4f9 100%);
-  overflow:hidden;padding:140px 0 90px;
-}
-.hero::before{ /* mountain motif */
-  content:"";position:absolute;bottom:-2px;left:0;right:0;height:34vh;
-  background:linear-gradient(180deg,transparent,rgba(44,110,158,.06));
-  clip-path:polygon(0 100%,0 78%,18% 48%,32% 66%,50% 22%,68% 62%,82% 44%,100% 72%,100% 100%);
-}
-.hero-inner{position:relative;display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center;width:100%}
-.hero-label{
-  display:inline-flex;align-items:center;gap:10px;font-family:var(--font-en);
-  font-size:.78rem;font-weight:600;letter-spacing:.22em;color:var(--blue);
-  margin-bottom:26px;text-transform:uppercase;
-}
-.hero-label::before{content:"";width:36px;height:2px;background:var(--red)}
-h1{
-  font-size:clamp(2.1rem,4.6vw,3.4rem);font-weight:900;line-height:1.5;
-  letter-spacing:.04em;margin-bottom:24px;color:var(--navy);
-}
-h1 .accent{color:var(--blue)}
-.hero-lead{font-size:1.02rem;color:var(--gray);max-width:34em;margin-bottom:40px}
-.hero-btns{display:flex;gap:16px;flex-wrap:wrap}
-.btn{
-  display:inline-flex;align-items:center;gap:10px;padding:15px 34px;border-radius:999px;
-  font-weight:700;font-size:.95rem;transition:transform .25s,box-shadow .25s,background .25s;
-}
-.btn-primary{background:var(--blue-deep);color:#fff;box-shadow:0 8px 24px rgba(28,78,120,.28)}
-.btn-primary:hover{background:var(--red);transform:translateY(-2px);box-shadow:0 12px 28px rgba(196,36,48,.3)}
-.btn-ghost{border:1.5px solid var(--line);background:#fff;color:var(--navy)}
-.btn-ghost:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
-.btn .arrow{transition:transform .25s}
-.btn:hover .arrow{transform:translateX(4px)}
-.hero-logo{position:relative;display:flex;justify-content:center}
-.hero-logo img{
-  width:min(360px,72%);
-  filter:drop-shadow(0 26px 44px rgba(19,43,64,.28));
-  animation:float 7s ease-in-out infinite;
-}
-@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
-.hero-logo::after{
-  content:"";position:absolute;inset:-8%;border:1.5px dashed rgba(44,110,158,.3);
-  border-radius:50%;animation:spin 60s linear infinite;
-}
-@keyframes spin{to{transform:rotate(360deg)}}
+.footer{background:#0a2032;color:rgba(255,255,255,.7);padding:48px 0}.footer-in{display:flex;justify-content:space-between;align-items:center;gap:22px}.footer .brand-ja{color:#fff}.copy{font:500 .72rem var(--en);letter-spacing:.05em}.reveal{opacity:0;transform:translateY(22px);transition:.75s}.reveal.show{opacity:1;transform:none}
 
-/* ---------- sections ---------- */
-section{padding:110px 0}
-.sec-head{margin-bottom:56px}
-.sec-en{
-  font-family:var(--font-en);font-size:.8rem;font-weight:700;letter-spacing:.26em;
-  color:var(--red);text-transform:uppercase;display:flex;align-items:center;gap:12px;margin-bottom:12px;
-}
-.sec-en::before{content:"";width:28px;height:2px;background:var(--red)}
-.sec-title{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:900;letter-spacing:.05em;color:var(--navy)}
-.sec-lead{margin-top:18px;color:var(--gray);max-width:46em}
-
-/* about */
-.about{background:var(--bg-soft)}
-.values{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:8px}
-.value-card{
-  background:#fff;border-radius:var(--radius);padding:40px 32px;box-shadow:var(--shadow);
-  border-top:4px solid var(--blue);transition:transform .3s;
-}
-.value-card:nth-child(2){border-top-color:var(--red)}
-.value-card:nth-child(3){border-top-color:var(--navy)}
-.value-card:hover{transform:translateY(-6px)}
-.value-num{font-family:var(--font-en);font-weight:700;font-size:.8rem;color:var(--blue);letter-spacing:.2em}
-.value-card h3{font-size:1.2rem;font-weight:700;margin:10px 0 12px;color:var(--navy)}
-.value-card p{font-size:.92rem;color:var(--gray)}
-
-/* services */
-.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.svc{
-  border:1px solid var(--line);border-radius:var(--radius);padding:36px 28px;
-  transition:box-shadow .3s,transform .3s,border-color .3s;background:#fff;
-}
-.svc:hover{box-shadow:var(--shadow);transform:translateY(-5px);border-color:transparent}
-.svc-icon{
-  width:56px;height:56px;border-radius:14px;display:grid;place-items:center;margin-bottom:20px;
-  background:linear-gradient(135deg,rgba(44,110,158,.12),rgba(44,110,158,.04));
-}
-.svc-icon svg{width:28px;height:28px;stroke:var(--blue);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
-.svc h3{font-size:1.06rem;font-weight:700;color:var(--navy);margin-bottom:10px}
-.svc p{font-size:.88rem;color:var(--gray)}
-
-/* message */
-.message{background:linear-gradient(135deg,var(--navy) 0%,var(--blue-deep) 100%);color:#fff;position:relative;overflow:hidden}
-.message::before{
-  content:"";position:absolute;right:-140px;top:50%;transform:translateY(-50%);
-  width:520px;height:520px;border-radius:50%;
-  background:url('assets/logo.webp?v=2') center/contain no-repeat;opacity:.08;filter:grayscale(30%);
-}
-.message .sec-en{color:#e88891}
-.message .sec-title{color:#fff}
-.msg-body{max-width:46em;position:relative}
-.msg-body p{margin-bottom:1.4em;color:rgba(255,255,255,.88);font-size:.98rem}
-.msg-sign{display:flex;align-items:baseline;gap:18px;margin-top:36px}
-.msg-sign .role{font-size:.82rem;color:rgba(255,255,255,.6)}
-.msg-sign .name{font-size:1.5rem;font-weight:900;letter-spacing:.12em}
-
-/* company */
-.company{background:var(--bg-soft)}
-.co-table{
-  width:100%;border-collapse:collapse;background:#fff;border-radius:var(--radius);
-  overflow:hidden;box-shadow:var(--shadow);
-}
-.co-table th,.co-table td{
-  padding:22px 28px;text-align:left;font-size:.94rem;border-bottom:1px solid var(--line);vertical-align:top;
-}
-.co-table tr:last-child th,.co-table tr:last-child td{border-bottom:0}
-.co-table th{width:220px;background:#f8fafc;color:var(--navy);font-weight:700;white-space:nowrap}
-.co-table ul{list-style:none}
-.co-table li{position:relative;padding-left:18px;margin-bottom:4px}
-.co-table li::before{content:"";position:absolute;left:0;top:.72em;width:8px;height:2px;background:var(--red)}
-
-/* contact */
-.contact{text-align:center}
-.contact .sec-head{margin-bottom:32px}
-.contact .sec-en{justify-content:center}
-.contact .sec-en::before{display:none}
-.contact-lead{color:var(--gray);max-width:40em;margin:0 auto 40px}
-.mail-btn{
-  display:inline-flex;align-items:center;gap:14px;padding:20px 48px;border-radius:999px;
-  background:var(--blue-deep);color:#fff;font-weight:700;font-size:1.05rem;
-  box-shadow:0 10px 30px rgba(28,78,120,.3);transition:background .3s,transform .25s;
-}
-.mail-btn:hover{background:var(--red);transform:translateY(-3px)}
-.mail-btn svg{width:22px;height:22px;stroke:#fff;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.contact-note{margin-top:22px;font-size:.84rem;color:var(--gray)}
-
-/* footer */
-.footer{background:var(--navy);color:rgba(255,255,255,.75);padding:56px 0 40px}
-.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}
-.footer .brand img{background:#fff}
-.footer .brand-name{color:#fff}
-.footer .brand-name small{color:#8fb8d6}
-.copy{font-size:.8rem;letter-spacing:.06em}
-
-/* reveal animation */
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
-.reveal.visible{opacity:1;transform:none}
-
-/* ---------- responsive ---------- */
-@media(max-width:900px){
-  .hero-inner{grid-template-columns:1fr;text-align:left}
-  .hero-logo{order:-1;margin-bottom:8px}
-  .hero-logo img{width:min(220px,55%)}
-  .values,.services-grid{grid-template-columns:1fr;gap:18px}
-  section{padding:80px 0}
-  .nav{
-    position:fixed;top:72px;right:0;flex-direction:column;align-items:flex-end;gap:0;
-    background:rgba(255,255,255,.97);width:min(78vw,320px);padding:16px 28px 28px;
-    border-radius:0 0 0 var(--radius);box-shadow:var(--shadow);
-    transform:translateX(110%);transition:transform .35s;
-  }
-  .nav.open{transform:none}
-  .nav a{padding:14px 0;font-size:1rem;width:100%;text-align:right}
-  .nav .cta{margin-top:12px;text-align:center}
-  .menu-btn{display:block}
-  .menu-btn.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
-  .menu-btn.open span:nth-child(2){opacity:0}
-  .menu-btn.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
-  h1{font-size:clamp(1.7rem,7.4vw,2.4rem)}
-  .co-table th{width:120px;padding:18px 16px}
-  .co-table td{padding:18px 16px}
-  .message::before{width:340px;height:340px;right:-120px;opacity:.06}
-}
+@media(max-width:860px){.wrap{width:min(100% - 34px,1120px)}.nav{position:fixed;top:76px;right:0;width:min(340px,88vw);padding:18px 26px 28px;background:rgba(250,249,246,.98);flex-direction:column;align-items:flex-end;transform:translateX(110%);transition:.3s;border-left:1px solid var(--line);border-bottom:1px solid var(--line)}.nav.open{transform:none}.menu{display:block}.hero{padding:125px 0 80px}.hero-grid{grid-template-columns:1fr;gap:38px}
+.hero-mark{order:-1}.hero-mark img{width:190px}.head{grid-template-columns:1fr;gap:12px}.intro{grid-column:1}
+.principles{grid-template-columns:1fr}.services{grid-template-columns:1fr}.message-body{margin-left:0}.company-grid{grid-template-columns:1fr}.company-item,.company-item:nth-child(odd){border-right:0}.company-item.wide{grid-column:auto}.business-list{grid-template-columns:1fr}.footer-in{align-items:flex-start;flex-direction:column}.section{padding:82px 0}h1{font-size:clamp(2rem,9vw,3rem)}}
+@media(max-width:520px){.brand-ja{font-size:.86rem}.brand-en{font-size:.55rem}.service{padding:28px 22px;grid-template-columns:42px 1fr}.company-item{grid-template-columns:96px 1fr}.hero:before{opacity:.1}.actions .btn{width:100%}}
 </style>
 </head>
 <body>
-
-<header class="header" id="header">
-  <div class="header-inner">
-    <a class="brand" href="#top">
-      <img src="assets/logo.webp?v=2" alt="太平ジャパン合同会社 ロゴ" width="44" height="44">
-      <span class="brand-name">太平ジャパン合同会社<small>TAIHEI JAPAN LLC</small></span>
-    </a>
-    <button class="menu-btn" id="menuBtn" aria-label="メニュー"><span></span><span></span><span></span></button>
-    <nav class="nav" id="nav">
-      <a href="#about">私たちについて</a>
-      <a href="#services">事業内容</a>
-      <a href="#message">代表メッセージ</a>
-      <a href="#company">会社概要</a>
-      <a class="cta" href="#contact">お問い合わせ</a>
-    </nav>
-  </div>
-</header>
-
+<header class="header"><div class="wrap header-in"><a class="brand" href="#top"><img src="assets/logo.webp?v=2" alt="TAIHEI JAPAN LLC"><span class="brand-ja" data-ja="太平ジャパン合同会社" data-en="TAIHEI JAPAN LLC">太平ジャパン合同会社</span></a><button class="menu" aria-label="Menu"><span></span><span></span><span></span></button><nav class="nav"><a href="#about" data-ja="私たちについて" data-en="About">私たちについて</a><a href="#services" data-ja="事業内容" data-en="Services">事業内容</a><a href="#message" data-ja="代表メッセージ" data-en="Message">代表メッセージ</a><a href="#company" data-ja="会社概要" data-en="Company">会社概要</a><a href="#contact" data-ja="お問い合わせ" data-en="Contact">お問い合わせ</a><div class="lang" aria-label="Language"><button class="active" data-lang="ja">JP</button><button data-lang="en">EN</button></div></nav></div></header>
 <main id="top">
-
-  <!-- ================= HERO ================= -->
-  <div class="hero">
-    <div class="container hero-inner">
-      <div>
-        <p class="hero-label">Trade &amp; Technology from Japan</p>
-        <h1>日本の確かな価値を、<br><span class="accent">世界へ</span>届ける。</h1>
-        <p class="hero-lead">
-          太平ジャパン合同会社は、越境EC・輸出入をはじめとする「商い」と、
-          AI・ITの「テクノロジー」を掛け合わせ、お客様と社会に新しい価値をお届けします。
-        </p>
-        <div class="hero-btns">
-          <a class="btn btn-primary" href="#services">事業内容を見る <span class="arrow">→</span></a>
-          <a class="btn btn-ghost" href="#contact">お問い合わせ</a>
-        </div>
-      </div>
-      <div class="hero-logo">
-        <img src="assets/logo.webp?v=2" alt="TAIHEI JAPAN LLC">
-      </div>
-    </div>
-  </div>
-
-  <!-- ================= ABOUT ================= -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="sec-head reveal">
-        <p class="sec-en">About Us</p>
-        <h2 class="sec-title">私たちについて</h2>
-        <p class="sec-lead">
-          社名の「太平」には、穏やかで揺るがない信頼の上に事業を築くという想いを込めています。
-          群馬県高崎市を拠点に、規模は小さくとも一つひとつの取引に誠実に向き合い、
-          国内外のお客様・パートナーとともに成長してまいります。
-        </p>
-      </div>
-      <div class="values">
-        <div class="value-card reveal">
-          <p class="value-num">01</p>
-          <h3>信頼を第一に</h3>
-          <p>確かな品質の商品・サービスを、約束した形で確実にお届けする。すべての事業の土台に「信頼」を置いています。</p>
-        </div>
-        <div class="value-card reveal">
-          <p class="value-num">02</p>
-          <h3>商いとITの融合</h3>
-          <p>貿易・物販の現場感覚と、AI・ITの技術知見。二つの領域を横断できる強みを活かし、実効性のある提案を行います。</p>
-        </div>
-        <div class="value-card reveal">
-          <p class="value-num">03</p>
-          <h3>世界とつながる</h3>
-          <p>日本の良いものを世界へ、世界の良いものを日本へ。国境を越えた価値の循環をつくることが私たちの使命です。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= SERVICES ================= -->
-  <section id="services">
-    <div class="container">
-      <div class="sec-head reveal">
-        <p class="sec-en">Services</p>
-        <h2 class="sec-title">事業内容</h2>
-        <p class="sec-lead">「商い」と「テクノロジー」の2軸で、以下の事業を展開しています。</p>
-      </div>
-      <div class="services-grid">
-        <div class="svc reveal">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></div>
-          <h3>越境EC・輸出入</h3>
-          <p>インターネットを活用した物品販売と輸出入。日本の優れた商品を海外マーケットへ届けます。</p>
-        </div>
-        <div class="svc reveal">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M4 7l8-4 8 4v10l-8 4-8-4V7z"/><path d="M4 7l8 4 8-4M12 11v10"/></svg></div>
-          <h3>卸売・商品仕入</h3>
-          <p>各種商品の仕入れ・販売・卸売。確かな目利きと調達ネットワークで安定した商品供給を実現します。</p>
-        </div>
-        <div class="svc reveal">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4M8 9l2.5 2.5L8 14M13 14h3"/></svg></div>
-          <h3>ITコンサルティング</h3>
-          <p>情報通信技術（IT）に関する課題整理から導入・活用まで、実務に根ざしたコンサルティングを提供します。</p>
-        </div>
-        <div class="svc reveal">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
-          <h3>AI導入・開発支援</h3>
-          <p>人工知能（AI）関連システムの企画・開発・導入支援。業務効率化から新規事業まで伴走します。</p>
-        </div>
-        <div class="svc reveal">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/><path d="M16 8l4-4M20 8V4h-4"/></svg></div>
-          <h3>経営コンサルティング</h3>
-          <p>経営課題の整理と成長戦略の立案・実行支援。数字に基づいた実践的なアドバイスを行います。</p>
-        </div>
-        <div class="svc reveal">
-          <div class="svc-icon"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M8 11h6M11 8v6"/></svg></div>
-          <h3>調査・分析・助言</h3>
-          <p>市場・事業に関する調査と分析。意思決定に必要な情報を整理し、的確な助言を提供します。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= MESSAGE ================= -->
-  <section class="message" id="message">
-    <div class="container">
-      <div class="sec-head reveal">
-        <p class="sec-en">Message</p>
-        <h2 class="sec-title">代表メッセージ</h2>
-      </div>
-      <div class="msg-body reveal">
-        <p>
-          このたび、群馬県高崎市に太平ジャパン合同会社を設立いたしました。
-        </p>
-        <p>
-          世界がインターネットでつながった今、地方の小さな会社であっても、
-          日本の確かな商品と誠実な仕事を、直接世界へ届けることができる時代です。
-          私たちは越境EC・輸出入という「商い」の力と、AI・ITという「テクノロジー」の力を掛け合わせ、
-          お客様の期待を一歩超える価値を提供してまいります。
-        </p>
-        <p>
-          まだ生まれたばかりの会社ですが、だからこそ一つひとつのご縁とお取引を大切に、
-          末永く信頼いただける会社を目指します。どうぞよろしくお願いいたします。
-        </p>
-        <div class="msg-sign">
-          <span class="role">代表社員</span>
-          <span class="name">大平 雄太</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= COMPANY ================= -->
-  <section class="company" id="company">
-    <div class="container">
-      <div class="sec-head reveal">
-        <p class="sec-en">Company</p>
-        <h2 class="sec-title">会社概要</h2>
-      </div>
-      <table class="co-table reveal">
-        <tr><th>商号</th><td>太平ジャパン合同会社</td></tr>
-        <tr><th>英文表記</th><td>TAIHEI JAPAN LLC</td></tr>
-        <tr><th>代表社員</th><td>大平 雄太</td></tr>
-        <tr><th>設立</th><td>2026年7月</td></tr>
-        <tr><th>資本金</th><td>1,000,000円</td></tr>
-        <tr><th>所在地</th><td>群馬県高崎市</td></tr>
-        <tr><th>事業内容</th><td>
-          <ul>
-            <li>インターネットを利用した物品の販売及び輸出入業</li>
-            <li>各種商品の仕入れ、販売及び卸売業</li>
-            <li>情報通信技術（IT）に関するコンサルティング業務</li>
-            <li>人工知能（AI）関連システムの企画、開発及び導入支援</li>
-            <li>経営コンサルティング業務・経営に関する調査、分析及び助言</li>
-          </ul>
-        </td></tr>
-        <tr><th>お問い合わせ</th><td><a href="mailto:info@taiheijp.com" style="color:var(--blue);font-weight:700">info@taiheijp.com</a></td></tr>
-      </table>
-    </div>
-  </section>
-
-  <!-- ================= CONTACT ================= -->
-  <section class="contact" id="contact">
-    <div class="container">
-      <div class="sec-head reveal">
-        <p class="sec-en">Contact</p>
-        <h2 class="sec-title">お問い合わせ</h2>
-      </div>
-      <p class="contact-lead reveal">
-        お取引のご相談、事業に関するお問い合わせは、下記メールアドレスまでお気軽にご連絡ください。
-        通常2営業日以内にご返信いたします。
-      </p>
-      <div class="reveal">
-        <a class="mail-btn" href="mailto:info@taiheijp.com">
-          <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
-          info@taiheijp.com
-        </a>
-        <p class="contact-note">※ 営業目的のご連絡はご遠慮いただいております。</p>
-      </div>
-    </div>
-  </section>
-
+<section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">Trade &amp; Technology from Japan</p><h1 data-ja="日本の確かな価値を、<br><em>世界の可能性</em>へ。" data-en="Japanese quality.<br><em>Global possibilities.</em>">日本の確かな価値を、<br><em>世界の可能性</em>へ。</h1><p class="lead" data-ja="太平ジャパンは、貿易・ECの実務力と、AI・ITの専門性を掛け合わせ、日本と世界のビジネスをつなぎます。誠実な対話と確かな実行で、お客様の次の一歩を支えます。" data-en="Taihei Japan connects Japanese businesses with global opportunities by combining hands-on expertise in trade and e-commerce with capabilities in AI and information technology. Through honest dialogue and reliable execution, we help our partners move forward.">太平ジャパンは、貿易・ECの実務力と、AI・ITの専門性を掛け合わせ、日本と世界のビジネスをつなぎます。誠実な対話と確かな実行で、お客様の次の一歩を支えます。</p><div class="actions"><a class="btn primary" href="#services" data-ja="事業内容を見る" data-en="Explore services">事業内容を見る</a><a class="btn" href="#contact" data-ja="お問い合わせ" data-en="Contact us">お問い合わせ</a></div></div><div class="hero-mark"><img src="assets/logo.webp?v=2" alt="TAIHEI JAPAN LLC"></div></div></section>
+<section class="section" id="about"><div class="wrap"><div class="head reveal"><p class="kicker">About Us</p><h2 class="title" data-ja="境界を越え、<br>信頼でつなぐ。" data-en="Beyond borders.<br>Connected by trust.">境界を越え、<br>信頼でつなぐ。</h2><p class="intro" data-ja="社名の「太平」には、穏やかで揺るぎない信頼の上に事業を築くという意思を込めています。国や業界の境界を越え、お客様やパートナーと長く続く関係を育みます。" data-en="The name Taihei reflects our commitment to building business on calm, enduring trust. Across borders and industries, we cultivate lasting relationships with clients and partners.">社名の「太平」には、穏やかで揺るぎない信頼の上に事業を築くという意思を込めています。国や業界の境界を越え、お客様やパートナーと長く続く関係を育みます。</p></div>
+<div class="principles">
+<article class="principle reveal"><b>01 / TRUST</b><span class="seal">信</span><h3 data-ja="誠実を、すべての起点に" data-en="Integrity at the core">誠実を、すべての起点に</h3><p data-ja="透明性のあるコミュニケーションと責任ある行動で、一つひとつの約束を積み重ねます。" data-en="We build trust through transparent communication, responsible action, and by honoring every commitment.">透明性のあるコミュニケーションと責任ある行動で、一つひとつの約束を積み重ねます。</p></article><article class="principle reveal"><b>02 / FUSION</b><span class="seal">融</span><h3 data-ja="商いと技術を、ひとつに" data-en="Trade meets technology">商いと技術を、ひとつに</h3><p data-ja="現場に根差した商流の理解と、AI・ITの知見を横断し、実効性のある解決策を形にします。" data-en="We combine practical commercial insight with AI and IT expertise to deliver solutions that work in the real world.">現場に根差した商流の理解と、AI・ITの知見を横断し、実効性のある解決策を形にします。</p></article><article class="principle reveal"><b>03 / GLOBAL</b><span class="seal">結</span><h3 data-ja="世界と、価値を結ぶ" data-en="Connecting value worldwide">世界と、価値を結ぶ</h3><p data-ja="日本の優れた価値を世界へ、世界の新たな価値を日本へ。国境を越える機会をつくります。" data-en="We bring outstanding Japanese value to the world and new global value to Japan, creating opportunities across borders.">日本の優れた価値を世界へ、世界の新たな価値を日本へ。国境を越える機会をつくります。</p></article></div></div></section>
+<section class="section alt" id="services"><div class="wrap"><div class="head reveal"><p class="kicker">Services</p><h2 class="title" data-ja="商いとテクノロジーで、<br>事業の前進を支える。" data-en="Advancing business through<br>trade and technology.">商いとテクノロジーで、<br>事業の前進を支える。</h2><p class="intro" data-ja="国境を越える商流づくりから、デジタル活用、経営課題の整理まで。構想と実行の両面から伴走します。" data-en="From cross-border commerce and digital adoption to management strategy, we support both planning and execution.">国境を越える商流づくりから、デジタル活用、経営課題の整理まで。構想と実行の両面から伴走します。</p></div><div class="services"><article class="service reveal"><span class="service-no">01</span><div><h3 data-ja="越境EC・輸出入" data-en="Cross-border E-commerce & Trade">越境EC・輸出入</h3><p data-ja="インターネットを活用した物品販売と輸出入を通じて、日本と海外市場を結びます。" data-en="We connect Japan with overseas markets through cross-border e-commerce, import, and export operations.">インターネットを活用した物品販売と輸出入を通じて、日本と海外市場を結びます。</p></div></article><article class="service reveal"><span class="service-no">02</span><div><h3 data-ja="商品仕入・販売・卸売" data-en="Sourcing, Sales & Wholesale">商品仕入・販売・卸売</h3><p data-ja="ニーズに沿った商品選定と調達ネットワークで、安定した商品供給を実現します。" data-en="We provide reliable product supply through needs-based selection and an effective sourcing network.">ニーズに沿った商品選定と調達ネットワークで、安定した商品供給を実現します。</p></div></article><article class="service reveal"><span class="service-no">03</span><div><h3 data-ja="ITコンサルティング" data-en="IT Consulting">ITコンサルティング</h3><p data-ja="IT課題の整理から導入・活用まで、実務に根差した改善を支援します。" data-en="We support practical improvements from identifying IT challenges through implementation and adoption.">IT課題の整理から導入・活用まで、実務に根差した改善を支援します。</p></div></article><article class="service reveal"><span class="service-no">04</span><div><h3 data-ja="AI企画・開発・導入支援" data-en="AI Planning & Implementation">AI企画・開発・導入支援</h3><p data-ja="AI関連システムの企画・開発・導入を、目的と現場に合わせて支援します。" data-en="We plan, develop, and implement AI solutions tailored to business objectives and operational needs.">AI関連システムの企画・開発・導入を、目的と現場に合わせて支援します。</p></div></article><article class="service reveal"><span class="service-no">05</span><div><h3 data-ja="経営コンサルティング" data-en="Management Consulting">経営コンサルティング</h3><p data-ja="経営課題を整理し、持続的な成長に向けた戦略と実行を支えます。" data-en="We clarify management challenges and support strategy and execution for sustainable growth.">経営課題を整理し、持続的な成長に向けた戦略と実行を支えます。</p></div></article><article class="service reveal"><span class="service-no">06</span><div><h3 data-ja="調査・分析・助言" data-en="Research, Analysis & Advisory">調査・分析・助言</h3><p data-ja="意思決定に必要な情報を整理・分析し、次の行動につながる助言を提供します。" data-en="We organize and analyze essential information to provide clear, actionable advice for decision-making.">意思決定に必要な情報を整理・分析し、次の行動につながる助言を提供します。</p></div></article></div></div></section>
+<section class="section dark" id="message"><div class="wrap"><div class="head reveal"><p class="kicker">Message</p><h2 class="title" data-ja="誠実な仕事で、<br>世界との信頼を築く。" data-en="Building global trust<br>through honest work.">誠実な仕事で、<br>世界との信頼を築く。</h2></div><div class="message-body reveal"><p data-ja="世界がより身近につながる今、企業の規模を問わず、日本の確かな商品やサービスを世界へ届ける機会が広がっています。" data-en="As the world becomes increasingly connected, businesses of every size have greater opportunities to bring trusted Japanese products and services to global markets.">世界がより身近につながる今、企業の規模を問わず、日本の確かな商品やサービスを世界へ届ける機会が広がっています。</p><p data-ja="私たちは、貿易・ECという「商い」の力と、AI・ITという「技術」の力を掛け合わせ、お客様の期待を一歩超える価値を提供してまいります。目先の成果だけでなく、長く信頼いただける関係を大切にします。" data-en="By combining the commercial capabilities of trade and e-commerce with the power of AI and IT, we aim to deliver value beyond expectations. We focus not only on immediate results, but on relationships built to last.">私たちは、貿易・ECという「商い」の力と、AI・ITという「技術」の力を掛け合わせ、お客様の期待を一歩超える価値を提供してまいります。目先の成果だけでなく、長く信頼いただける関係を大切にします。</p><div class="sign"><span data-ja="代表社員" data-en="Representative Member">代表社員</span><strong data-ja="大平 雄太" data-en="Yuta Ohira">大平 雄太</strong></div></div></div></section>
+<section class="section" id="company"><div class="wrap"><div class="head reveal"><p class="kicker">Company</p><h2 class="title" data-ja="会社概要" data-en="Company Profile">会社概要</h2></div><dl class="company-grid reveal"><div class="company-item"><dt data-ja="商号" data-en="Company">商号</dt><dd data-ja="太平ジャパン合同会社" data-en="TAIHEI JAPAN LLC">太平ジャパン合同会社</dd></div><div class="company-item"><dt data-ja="英文表記" data-en="Legal Name">英文表記</dt><dd>TAIHEI JAPAN LLC</dd></div><div class="company-item"><dt data-ja="代表社員" data-en="Representative">代表社員</dt><dd data-ja="大平 雄太" data-en="Yuta Ohira">大平 雄太</dd></div><div class="company-item"><dt data-ja="設立" data-en="Established">設立</dt><dd data-ja="2026年7月" data-en="July 2026">2026年7月</dd></div><div class="company-item"><dt data-ja="資本金" data-en="Capital">資本金</dt><dd data-ja="1,000,000円" data-en="JPY 1,000,000">1,000,000円</dd></div>
+<div class="company-item"><dt data-ja="所在地" data-en="Location">所在地</dt><dd data-ja="群馬県高崎市" data-en="Takasaki, Gunma, Japan">群馬県高崎市</dd></div>
+<div class="company-item">
+<dt data-ja="連絡先" data-en="Email">連絡先</dt><dd><a href="mailto:info@taiheijp.com">info@taiheijp.com</a></dd></div><div class="company-item wide"><dt data-ja="事業内容" data-en="Business">事業内容</dt><dd><ul class="business-list"><li data-ja="インターネットを利用した物品販売・輸出入" data-en="Online product sales, import and export">インターネットを利用した物品販売・輸出入</li><li data-ja="各種商品の仕入・販売・卸売" data-en="Product sourcing, sales and wholesale">各種商品の仕入・販売・卸売</li><li data-ja="ITコンサルティング" data-en="IT consulting">ITコンサルティング</li><li data-ja="AI関連システムの企画・開発・導入支援" data-en="AI system planning, development and implementation">AI関連システムの企画・開発・導入支援</li><li data-ja="経営コンサルティング、調査・分析・助言" data-en="Management consulting, research and advisory">経営コンサルティング、調査・分析・助言</li><li data-ja="古物の売買・交換および関連事業" data-en="Secondhand goods trading and related businesses">古物の売買・交換および関連事業</li></ul></dd></div></dl></div></section>
+<section class="section contact" id="contact"><div class="wrap"><div class="head reveal"><p class="kicker">Contact</p><h2 class="title" data-ja="ともに、次の価値へ。" data-en="Let’s create what’s next.">ともに、次の価値へ。</h2></div><p class="contact-copy reveal" data-ja="国内外のお取引、事業連携、IT・AI活用に関するご相談など、お気軽にお問い合わせください。" data-en="Contact us regarding domestic or international business, partnerships, trade, IT, or AI solutions.">国内外のお取引、事業連携、IT・AI活用に関するご相談など、お気軽にお問い合わせください。</p><a class="mail reveal" href="mailto:info@taiheijp.com">info@taiheijp.com</a></div></section>
 </main>
-
 <footer class="footer">
-  <div class="container footer-inner">
-    <a class="brand" href="#top">
-      <img src="assets/logo.webp?v=2" alt="" width="44" height="44">
-      <span class="brand-name">太平ジャパン合同会社<small>TAIHEI JAPAN LLC</small></span>
-    </a>
-    <p class="copy">&copy; 2026 TAIHEI JAPAN LLC. All Rights Reserved.</p>
-  </div>
-</footer>
-
+<div class="wrap footer-in"><a class="brand" href="#top"><img src="assets/logo.webp?v=2" alt="" width="42"><span class="brand-ja">太平ジャパン合同会社<span class="brand-en">TAIHEI JAPAN LLC</span></span></a><p class="copy">© 2026 TAIHEI JAPAN LLC. ALL RIGHTS RESERVED.</p></div></footer>
 <script>
-// header shadow
-const header = document.getElementById('header');
-addEventListener('scroll', () => header.classList.toggle('scrolled', scrollY > 10), {passive:true});
-
-// mobile menu
-const btn = document.getElementById('menuBtn'), nav = document.getElementById('nav');
-btn.addEventListener('click', () => {
-  btn.classList.toggle('open'); nav.classList.toggle('open');
-});
-nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-  btn.classList.remove('open'); nav.classList.remove('open');
-}));
-
-// reveal on scroll
-const io = new IntersectionObserver(entries => {
-  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
-}, {threshold:.15});
-document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+const menu=document.querySelector('.menu'),nav=document.querySelector('.nav');menu.addEventListener('click',()=>nav.classList.toggle('open'));nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+function setLanguage(lang){document.documentElement.lang=lang;document.querySelectorAll('[data-ja][data-en]').forEach(el=>el.innerHTML=el.dataset[lang]);document.querySelectorAll('.lang button').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));document.title=lang==='ja'?'太平ジャパン合同会社 | TAIHEI JAPAN LLC':'TAIHEI JAPAN LLC | Trade & Technology';localStorage.setItem('taihei-lang',lang)}
+document.querySelectorAll('.lang button').forEach(b=>b.addEventListener('click',()=>setLanguage(b.dataset.lang)));setLanguage(localStorage.getItem('taihei-lang')||'ja');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 </script>
-<script type="module">
-// BudouX: 日本語を文節単位で改行させる（てにをは等の途中で折り返さない）
-try {
-  const { loadDefaultJapaneseParser } = await import('https://cdn.jsdelivr.net/npm/budoux@0.6.2/+esm');
-  const parser = loadDefaultJapaneseParser();
-  const targets = document.querySelectorAll(
-    '.hero-lead, .sec-lead, .value-card h3, .value-card p, .svc h3, .svc p, ' +
-    '.msg-body p, .contact-lead, .contact-note, .co-table li'
-  );
-  targets.forEach(el => {
-    el.style.wordBreak = 'keep-all';
-    el.style.overflowWrap = 'anywhere';
-    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
-    const nodes = [];
-    while (walker.nextNode()) nodes.push(walker.currentNode);
-    nodes.forEach(n => {
-      if (!n.textContent.trim()) return;
-      let t = parser.parse(n.textContent).join('​');
-      // BudouXが誤って分割する語の補正（語中のゼロ幅スペースを除去）
-      ['だからこそ', '一つひとつ'].forEach(w => {
-        t = t.replace(new RegExp(w.split('').join('​?'), 'g'), w);
-      });
-      n.textContent = t;
-    });
-  });
-} catch (e) { /* CDN不達時は通常の折り返しにフォールバック */ }
-</script>
-</body>
-</html>
+</body></html>
